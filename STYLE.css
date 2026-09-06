@@ -606,7 +606,7 @@ h1, h2 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.
   width: 100%;
   background: none;
   border: none;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 2px solid var(--line);
   padding: 8px 0;
   color: var(--text);
   font-family: var(--font-body);
