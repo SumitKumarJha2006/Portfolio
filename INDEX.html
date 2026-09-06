@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sumit — Frontend Developer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+<div class="cursor-ring"></div>
+
+<button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">
+  <span></span><span></span><span></span>
+</button>
+
+<!-- ================= SIDEBAR ================= -->
+<aside class="sidebar" id="sidebar">
+
+  <a href="#hero" class="side-mark">
+    <span class="mark-bracket">&lt;</span>Sumit<span class="mark-bracket">/&gt;</span>
+  </a>
+
+  <nav class="side-nav" id="sideNav">
+    <a href="#hero" data-tag="v1.0" class="active">hero</a>
+    <a href="#about" data-tag="v1.1">about</a>
+    <a href="#skills" data-tag="v1.2">skills</a>
+    <a href="#work" data-tag="v1.3">work</a>
+    <a href="#contact" data-tag="v1.4">contact</a>
+    <span class="side-indicator"></span>
+  </nav>
+
+  <div class="side-foot">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-dot"></span>
+      <span class="theme-label">dark</span>
+    </button>
+
+    <div class="side-socials">
+      <a href="#" aria-label="GitHub">gh</a>
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="mailto:bjha1861@gmail.com" aria-label="Email">@</a>
+    </div>
+  </div>
+
+</aside>
+
+
+<!-- ================= MAIN ================= -->
+<main class="main">
+
+  <!-- ============ HERO — v1.0 ============ -->
+  <section class="hero" id="hero">
+
+    <div class="hero-top">
+      <span class="status-pill"><span class="status-dot"></span>available for work</span>
+      <span class="path-label">~/hero.entry</span>
+    </div>
+
+    <h1 class="hero-headline" id="heroHeadline">
+      <span class="line" data-line="0">Building interfaces</span>
+      <span class="line" data-line="1">that feel <em>inevitable.</em></span>
+    </h1>
+
+    <p class="hero-copy">
+      I'm Sumit, a frontend developer who turns plain requirements into
+      fast, responsive, carefully-animated web interfaces — using nothing
+      more than HTML, CSS and JavaScript.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">
+        View the work
+      </a>
+      <a href="#contact" class="btn btn-ghost">
+        Get in touch
+      </a>
+    </div>
+
+    <div class="build-panel" id="buildPanel" aria-hidden="true">
+      <div class="build-line" data-final="$ whoami"></div>
+      <div class="build-line" data-final="&gt; Sumit — frontend developer"></div>
+      <div class="build-line" data-final="$ status --check"></div>
+      <div class="build-line" data-final="&gt; available, replies within a day"></div>
+      <div class="build-cursor">_</div>
+    </div>
+
+  </section>
+
+
+  <!-- ============ ABOUT — v1.1 ============ -->
+  <section class="section" id="about">
+
+    <header class="section-head">
+      <span class="path-label">~/about.info</span>
+      <h2>A developer who reads the spec twice.</h2>
+    </header>
+
+    <div class="about-grid">
+
+      <div class="about-copy">
+        <p>
+          I started out breaking my own websites just to understand how
+          they were built, and never really stopped. These days that
+          means writing interfaces that are quick to load, easy to use,
+          and animated with a reason behind every motion — not just
+          because it was possible.
+        </p>
+        <p>
+          I care about the details most visitors won't consciously
+          notice: the timing of a hover state, the weight of a heading,
+          the difference between an interface that works and one that
+          feels considered.
+        </p>
+      </div>
+
+      <dl class="spec-table">
+        <div class="spec-row"><dt>name</dt><dd>Sumit</dd></div>
+        <div class="spec-row"><dt>role</dt><dd>Frontend Developer</dd></div>
+        <div class="spec-row"><dt>stack</dt><dd>HTML · CSS · JavaScript</dd></div>
+        <div class="spec-row"><dt>status</dt><dd class="accent-text">available</dd></div>
+        <div class="spec-row"><dt>contact</dt><dd>bjha1861@gmail.com</dd></div>
+      </dl>
+
+    </div>
+
+  </section>
+
+
+  <!-- ============ SKILLS — v1.2 ============ -->
+  <section class="section" id="skills">
+
+    <header class="section-head">
+      <span class="path-label">~/skills.list</span>
+      <h2>Tools I reach for.</h2>
+    </header>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>HTML5</span><span>·</span>
+        <span>CSS3</span><span>·</span>
+        <span>JavaScript</span><span>·</span>
+        <span>Git &amp; GitHub</span><span>·</span>
+        <span>Responsive Design</span><span>·</span>
+        <span>Accessibility</span><span>·</span>
+        <span>UI Animation</span><span>·</span>
+        <span>Performance</span><span>·</span>
+        <span>HTML5</span><span>·</span>
+        <span>CSS3</span><span>·</span>
+        <span>JavaScript</span><span>·</span>
+        <span>Git &amp; GitHub</span><span>·</span>
+        <span>Responsive Design</span><span>·</span>
+        <span>Accessibility</span><span>·</span>
+        <span>UI Animation</span><span>·</span>
+        <span>Performance</span><span>·</span>
+      </div>
+    </div>
+
+    <ul class="proficiency-list">
+
+      <li class="proficiency-item">
+        <div class="proficiency-info">
+          <span>HTML5</span><span class="proficiency-value">95%</span>
+        </div>
+        <div class="proficiency-track"><div class="proficiency-fill" data-width="95%"></div></div>
+      </li>
+
+      <li class="proficiency-item">
+        <div class="proficiency-info">
+          <span>CSS3</span><span class="proficiency-value">90%</span>
+        </div>
+        <div class="proficiency-track"><div class="proficiency-fill" data-width="90%"></div></div>
+      </li>
+
+      <li class="proficiency-item">
+        <div class="proficiency-info">
+          <span>JavaScript</span><span class="proficiency-value">85%</span>
+        </div>
+        <div class="proficiency-track"><div class="proficiency-fill" data-width="85%"></div></div>
+      </li>
+
+      <li class="proficiency-item">
+        <div class="proficiency-info">
+          <span>Responsive Design</span><span class="proficiency-value">92%</span>
+        </div>
+        <div class="proficiency-track"><div class="proficiency-fill" data-width="92%"></div></div>
+      </li>
+
+    </ul>
+
+  </section>
+
+
+  <!-- ============ WORK — v1.3 ============ -->
+  <section class="section" id="work">
+
+    <header class="section-head">
+      <span class="path-label">~/work.log</span>
+      <h2>Selected releases.</h2>
+    </header>
+
+    <div class="changelog">
+
+      <article class="log-entry open">
+        <button class="log-header">
+          <span class="log-version">v1.2.0</span>
+          <span class="log-title">Modern Portfolio</span>
+          <span class="log-toggle">＋</span>
+        </button>
+        <div class="log-body">
+          <p>A responsive personal portfolio with layered scroll animation,
+             a custom cursor and a component system built entirely without
+             a framework.</p>
+          <div class="log-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="log-links">
+            <a href="#">Source</a>
+            <a href="#">Live preview</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="log-entry">
+        <button class="log-header">
+          <span class="log-version">v1.1.4</span>
+          <span class="log-title">Shopping Interface</span>
+          <span class="log-toggle">＋</span>
+        </button>
+        <div class="log-body">
+          <p>A storefront concept focused on a fast, distraction-free
+             checkout flow and a product grid that stays legible at any
+             viewport width.</p>
+          <div class="log-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <div class="log-links">
+            <a href="#">Source</a>
+            <a href="#">Live preview</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="log-entry">
+        <button class="log-header">
+          <span class="log-version">v1.0.9</span>
+          <span class="log-title">Analytics Dashboard</span>
+          <span class="log-toggle">＋</span>
+        </button>
+        <div class="log-body">
+          <p>A dashboard layout for reading data at a glance, with
+             lightweight chart components and layout that reflows cleanly
+             on smaller screens.</p>
+          <div class="log-tags"><span>JavaScript</span><span>API</span><span>CSS</span></div>
+          <div class="log-links">
+            <a href="#">Source</a>
+            <a href="#">Live preview</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- ============ CONTACT — v1.4 ============ -->
+  <section class="section" id="contact">
+
+    <header class="section-head">
+      <span class="path-label">~/contact.send</span>
+      <h2>Let's build something.</h2>
+    </header>
+
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <p>
+          Have a project, a role, or just a question about how something
+          on this page was built? I read everything that comes in below.
+        </p>
+
+        <button class="email-copy" id="emailCopy" data-email="bjha1861@gmail.com">
+          bjha1861@gmail.com
+          <span class="copy-hint">click to copy</span>
+        </button>
+
+        <div class="contact-socials">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn">
+          <span class="btn-text">Send message</span>
+        </button>
+
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <footer class="footer">
+    <p>Designed &amp; built by Sumit — no frameworks, just HTML, CSS &amp; JavaScript.</p>
+    <p class="footer-year">© <span id="year"></span> Sumit. All rights reserved.</p>
+  </footer>
+
+</main>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
